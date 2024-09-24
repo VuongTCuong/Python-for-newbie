@@ -1,0 +1,499 @@
+2023-02-12 10:07:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-02-12 10:07:57 0 [Note] InnoDB: Uses event mutexes
+2023-02-12 10:07:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-02-12 10:07:57 0 [Note] InnoDB: Number of pools: 1
+2023-02-12 10:07:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-02-12 10:07:57 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-02-12 10:07:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-12 10:07:57 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2023-02-12 10:07:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-02-12 10:07:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-02-12 10:07:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-02-12 10:07:58 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-02-12 10:07:58 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-02-12 10:07:58 0 [Note] InnoDB: Waiting for purge to start
+2023-02-12 10:07:58 0 [Note] InnoDB: 10.4.27 started; log sequence number 300297; transaction id 170
+2023-02-12 10:07:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-02-12 10:07:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-02-12 10:07:59 0 [Note] Server socket created on IP: '::'.
+2023-02-12 10:07:59 0 [Note] InnoDB: Buffer pool(s) load completed at 230212 10:07:59
+2023-02-12 10:08:00 0 [Note] Reading of all Master_info entries succeeded
+2023-02-12 10:08:00 0 [Note] Added new Master_info '' to hash table
+2023-02-12 10:08:00 0 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.27-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-05-07 20:35:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-07 20:35:37 0 [Note] InnoDB: Uses event mutexes
+2023-05-07 20:35:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-07 20:35:37 0 [Note] InnoDB: Number of pools: 1
+2023-05-07 20:35:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-07 20:35:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-07 20:35:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-07 20:35:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300306
+2023-05-07 20:35:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-07 20:35:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-07 20:35:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-07 20:35:38 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-07 20:35:38 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-07 20:35:38 0 [Note] InnoDB: Waiting for purge to start
+2023-05-07 20:35:38 0 [Note] InnoDB: 10.4.27 started; log sequence number 300315; transaction id 170
+2023-05-07 20:35:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-07 20:35:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-07 20:35:38 0 [Note] InnoDB: Buffer pool(s) load completed at 230507 20:35:38
+2023-05-07 20:35:38 0 [Note] Server socket created on IP: '::'.
+2023-05-07 22:42:49 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-07 22:42:49 0 [Note] InnoDB: Uses event mutexes
+2023-05-07 22:42:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-07 22:42:49 0 [Note] InnoDB: Number of pools: 1
+2023-05-07 22:42:49 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-07 22:42:49 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-07 22:42:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-07 22:42:49 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300324
+2023-05-07 22:42:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-07 22:42:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-07 22:42:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-07 22:42:50 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-07 22:42:50 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-07 22:42:50 0 [Note] InnoDB: Waiting for purge to start
+2023-05-07 22:42:50 0 [Note] InnoDB: 10.4.27 started; log sequence number 300333; transaction id 170
+2023-05-07 22:42:50 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-07 22:42:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-07 22:42:50 0 [Note] Server socket created on IP: '::'.
+2023-05-08 20:51:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-08 20:51:04 0 [Note] InnoDB: Uses event mutexes
+2023-05-08 20:51:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-08 20:51:04 0 [Note] InnoDB: Number of pools: 1
+2023-05-08 20:51:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-08 20:51:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-08 20:51:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-08 20:51:05 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=304277
+2023-05-08 20:51:07 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-08 20:51:07 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-08 20:51:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-08 20:51:07 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-08 20:51:07 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-08 20:51:07 0 [Note] InnoDB: Waiting for purge to start
+2023-05-08 20:51:07 0 [Note] InnoDB: 10.4.27 started; log sequence number 304286; transaction id 195
+2023-05-08 20:51:07 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-08 20:51:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-08 20:51:07 0 [Note] Server socket created on IP: '::'.
+2023-05-08 21:51:03 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-08 21:51:03 0 [Note] InnoDB: Uses event mutexes
+2023-05-08 21:51:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-08 21:51:03 0 [Note] InnoDB: Number of pools: 1
+2023-05-08 21:51:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-08 21:51:03 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-08 21:51:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-08 21:51:03 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=304295
+2023-05-08 21:51:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-08 21:51:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-08 21:51:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-08 21:51:03 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-08 21:51:03 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-08 21:51:03 0 [Note] InnoDB: Waiting for purge to start
+2023-05-08 21:51:03 0 [Note] InnoDB: 10.4.27 started; log sequence number 304304; transaction id 195
+2023-05-08 21:51:03 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-08 21:51:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-08 21:51:03 0 [Note] Server socket created on IP: '::'.
+2023-05-08 21:51:26 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-08 21:51:26 0 [Note] InnoDB: Uses event mutexes
+2023-05-08 21:51:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-08 21:51:26 0 [Note] InnoDB: Number of pools: 1
+2023-05-08 21:51:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-08 21:51:26 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-08 21:51:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-08 21:51:26 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=304313
+2023-05-08 21:51:26 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-08 21:51:26 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-08 21:51:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-08 21:51:26 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-08 21:51:26 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-08 21:51:26 0 [Note] InnoDB: Waiting for purge to start
+2023-05-08 21:51:26 0 [Note] InnoDB: 10.4.27 started; log sequence number 304322; transaction id 195
+2023-05-08 21:51:26 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-08 21:51:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-08 21:51:27 0 [Note] Server socket created on IP: '::'.
+2023-05-08 21:52:23 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-08 21:52:23 0 [Note] InnoDB: Uses event mutexes
+2023-05-08 21:52:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-08 21:52:23 0 [Note] InnoDB: Number of pools: 1
+2023-05-08 21:52:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-08 21:52:23 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-08 21:52:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-08 21:52:23 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=304331
+2023-05-08 21:52:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-08 21:52:23 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-08 21:52:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-08 21:52:23 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-08 21:52:23 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-08 21:52:23 0 [Note] InnoDB: Waiting for purge to start
+2023-05-08 21:52:24 0 [Note] InnoDB: 10.4.27 started; log sequence number 304340; transaction id 195
+2023-05-08 21:52:24 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-08 21:52:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-08 21:52:24 0 [Note] Server socket created on IP: '::'.
+2023-05-13 23:06:17 0 [Note] mysqld.exe: Aria engine: starting recovery
+recovered pages: 0% 22% 100% (0.0 seconds); tables to flush: 1 0
+ (0.1 seconds); 
+2023-05-13 23:06:17 0 [Note] mysqld.exe: Aria engine: recovery done
+2023-05-13 23:06:18 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-13 23:06:18 0 [Note] InnoDB: Uses event mutexes
+2023-05-13 23:06:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-13 23:06:18 0 [Note] InnoDB: Number of pools: 1
+2023-05-13 23:06:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-13 23:06:18 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-13 23:06:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-13 23:06:18 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=327659
+2023-05-13 23:06:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-13 23:06:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-13 23:06:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-13 23:06:19 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-13 23:06:19 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-13 23:06:19 0 [Note] InnoDB: Waiting for purge to start
+2023-05-13 23:06:19 0 [Note] InnoDB: 10.4.27 started; log sequence number 327668; transaction id 293
+2023-05-13 23:06:19 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-13 23:06:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-13 23:06:19 0 [Note] InnoDB: Buffer pool(s) load completed at 230513 23:06:19
+2023-05-13 23:06:19 0 [Note] Server socket created on IP: '::'.
+2023-05-14 21:54:42 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-14 21:54:42 0 [Note] InnoDB: Uses event mutexes
+2023-05-14 21:54:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-14 21:54:42 0 [Note] InnoDB: Number of pools: 1
+2023-05-14 21:54:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-14 21:54:42 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-14 21:54:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-14 21:54:43 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=330115
+2023-05-14 21:54:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-14 21:54:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-14 21:54:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-14 21:54:44 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-14 21:54:44 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-14 21:54:44 0 [Note] InnoDB: Waiting for purge to start
+2023-05-14 21:54:45 0 [Note] InnoDB: 10.4.27 started; log sequence number 330124; transaction id 323
+2023-05-14 21:54:45 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-14 21:54:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-14 21:54:45 0 [Note] InnoDB: Buffer pool(s) load completed at 230514 21:54:45
+2023-05-14 21:54:45 0 [Note] Server socket created on IP: '::'.
+2023-05-15 16:03:21 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-15 16:03:21 0 [Note] InnoDB: Uses event mutexes
+2023-05-15 16:03:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-15 16:03:21 0 [Note] InnoDB: Number of pools: 1
+2023-05-15 16:03:21 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-15 16:03:21 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-15 16:03:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-15 16:03:21 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=410766
+2023-05-15 16:03:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-15 16:03:23 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-15 16:03:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-15 16:03:23 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-15 16:03:23 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-15 16:03:23 0 [Note] InnoDB: Waiting for purge to start
+2023-05-15 16:03:23 0 [Note] InnoDB: 10.4.27 started; log sequence number 410775; transaction id 574
+2023-05-15 16:03:23 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-15 16:03:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-15 16:03:23 0 [Note] Server socket created on IP: '::'.
+2023-05-15 20:48:58 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-15 20:48:58 0 [Note] InnoDB: Uses event mutexes
+2023-05-15 20:48:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-15 20:48:58 0 [Note] InnoDB: Number of pools: 1
+2023-05-15 20:48:58 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-15 20:48:58 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-15 20:48:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-15 20:48:58 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=429993
+2023-05-15 20:48:59 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-15 20:48:59 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-15 20:48:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-15 20:48:59 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-15 20:48:59 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-15 20:48:59 0 [Note] InnoDB: Waiting for purge to start
+2023-05-15 20:48:59 0 [Note] InnoDB: 10.4.27 started; log sequence number 430002; transaction id 661
+2023-05-15 20:48:59 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-15 20:48:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-15 20:48:59 0 [Note] Server socket created on IP: '::'.
+2023-05-15 22:24:50 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-15 22:24:50 0 [Note] InnoDB: Uses event mutexes
+2023-05-15 22:24:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-15 22:24:50 0 [Note] InnoDB: Number of pools: 1
+2023-05-15 22:24:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-15 22:24:50 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-15 22:24:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-15 22:24:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=434332
+2023-05-15 22:24:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-15 22:24:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-15 22:24:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-15 22:24:58 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-15 22:24:58 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-15 22:24:58 0 [Note] InnoDB: Waiting for purge to start
+2023-05-15 22:24:58 0 [Note] InnoDB: 10.4.27 started; log sequence number 434341; transaction id 697
+2023-05-15 22:24:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-15 22:24:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-15 22:24:58 0 [Note] Server socket created on IP: '::'.
+2023-05-16 18:47:50 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-16 18:47:50 0 [Note] InnoDB: Uses event mutexes
+2023-05-16 18:47:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-16 18:47:50 0 [Note] InnoDB: Number of pools: 1
+2023-05-16 18:47:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-16 18:47:50 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-16 18:47:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-16 18:47:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=457347
+2023-05-16 18:47:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-16 18:47:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-16 18:47:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-16 18:47:52 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-16 18:47:52 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-16 18:47:52 0 [Note] InnoDB: Waiting for purge to start
+2023-05-16 18:47:52 0 [Note] InnoDB: 10.4.27 started; log sequence number 457356; transaction id 809
+2023-05-16 18:47:52 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-16 18:47:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-16 18:47:52 0 [Note] Server socket created on IP: '::'.
+2023-05-17 12:35:31 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-17 12:35:31 0 [Note] InnoDB: Uses event mutexes
+2023-05-17 12:35:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-17 12:35:31 0 [Note] InnoDB: Number of pools: 1
+2023-05-17 12:35:31 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-17 12:35:31 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-17 12:35:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-17 12:35:32 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=509855
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\admin.ibd' OS error: 203
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-17 12:35:33 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`admin``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-17 12:35:33 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`admin` because it could not be opened.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\loaisanpham.ibd' OS error: 203
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-17 12:35:33 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`loaisanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-17 12:35:33 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`loaisanpham` because it could not be opened.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\sanpham.ibd' OS error: 203
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-17 12:35:33 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-17 12:35:33 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`sanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-17 12:35:33 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`sanpham` because it could not be opened.
+2023-05-17 12:35:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-17 12:35:34 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-17 12:35:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-17 12:35:34 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-17 12:35:34 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-17 12:35:34 0 [Note] InnoDB: Waiting for purge to start
+2023-05-17 12:35:34 0 [Note] InnoDB: 10.4.27 started; log sequence number 509864; transaction id 980
+2023-05-17 12:35:34 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-17 12:35:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-17 12:35:34 0 [Note] InnoDB: Buffer pool(s) load completed at 230517 12:35:34
+2023-05-17 12:35:34 0 [Note] Server socket created on IP: '::'.
+2023-05-17 19:00:53 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-17 19:00:53 0 [Note] InnoDB: Uses event mutexes
+2023-05-17 19:00:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-17 19:00:53 0 [Note] InnoDB: Number of pools: 1
+2023-05-17 19:00:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-17 19:00:53 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-17 19:00:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-17 19:00:53 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=545209
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\admin.ibd' OS error: 203
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-17 19:00:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`admin``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-17 19:00:54 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`admin` because it could not be opened.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\loaisanpham.ibd' OS error: 203
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-17 19:00:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`loaisanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-17 19:00:54 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`loaisanpham` because it could not be opened.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\sanpham.ibd' OS error: 203
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-17 19:00:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-17 19:00:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`sanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-17 19:00:54 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`sanpham` because it could not be opened.
+2023-05-17 19:00:54 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-17 19:00:54 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-17 19:00:54 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-17 19:00:54 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-17 19:00:54 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-17 19:00:54 0 [Note] InnoDB: Waiting for purge to start
+2023-05-17 19:00:54 0 [Note] InnoDB: 10.4.27 started; log sequence number 545218; transaction id 1119
+2023-05-17 19:00:54 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-17 19:00:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-17 19:00:54 0 [Note] Server socket created on IP: '::'.
+2023-05-18 12:38:38 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-18 12:38:38 0 [Note] InnoDB: Uses event mutexes
+2023-05-18 12:38:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-18 12:38:38 0 [Note] InnoDB: Number of pools: 1
+2023-05-18 12:38:38 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-18 12:38:38 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-18 12:38:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-18 12:38:39 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=633059
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\admin.ibd' OS error: 203
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 12:38:41 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`admin``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 12:38:41 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`admin` because it could not be opened.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\loaisanpham.ibd' OS error: 203
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 12:38:41 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`loaisanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 12:38:41 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`loaisanpham` because it could not be opened.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\sanpham.ibd' OS error: 203
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 12:38:41 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 12:38:41 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`sanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 12:38:41 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`sanpham` because it could not be opened.
+2023-05-18 12:38:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-18 12:38:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-18 12:38:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-18 12:38:44 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-18 12:38:44 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-18 12:38:44 0 [Note] InnoDB: Waiting for purge to start
+2023-05-18 12:38:44 0 [Note] InnoDB: 10.4.27 started; log sequence number 633068; transaction id 1445
+2023-05-18 12:38:44 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-18 12:38:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-18 12:38:45 0 [Note] Server socket created on IP: '::'.
+2023-05-18 17:23:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-18 17:23:30 0 [Note] InnoDB: Uses event mutexes
+2023-05-18 17:23:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-18 17:23:30 0 [Note] InnoDB: Number of pools: 1
+2023-05-18 17:23:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-18 17:23:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-18 17:23:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-18 17:23:30 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=865405
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\admin.ibd' OS error: 203
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 17:23:30 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`admin``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 17:23:30 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`admin` because it could not be opened.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\loaisanpham.ibd' OS error: 203
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 17:23:30 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`loaisanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 17:23:30 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`loaisanpham` because it could not be opened.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\sanpham.ibd' OS error: 203
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 17:23:30 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 17:23:30 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`sanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 17:23:30 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`sanpham` because it could not be opened.
+2023-05-18 17:23:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-18 17:23:30 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-18 17:23:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-18 17:23:30 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-18 17:23:30 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-18 17:23:30 0 [Note] InnoDB: Waiting for purge to start
+2023-05-18 17:23:30 0 [Note] InnoDB: 10.4.27 started; log sequence number 865414; transaction id 1946
+2023-05-18 17:23:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-18 17:23:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-18 17:23:31 0 [Note] Server socket created on IP: '::'.
+2023-05-18 20:50:59 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-18 20:50:59 0 [Note] InnoDB: Uses event mutexes
+2023-05-18 20:50:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-18 20:50:59 0 [Note] InnoDB: Number of pools: 1
+2023-05-18 20:50:59 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-18 20:50:59 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-18 20:50:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-18 20:50:59 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=872356
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\admin.ibd' OS error: 203
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 20:50:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`admin``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 20:50:59 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`admin` because it could not be opened.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\loaisanpham.ibd' OS error: 203
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 20:50:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`loaisanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 20:50:59 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`loaisanpham` because it could not be opened.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\sanpham.ibd' OS error: 203
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-18 20:50:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-18 20:50:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`sanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-18 20:50:59 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`sanpham` because it could not be opened.
+2023-05-18 20:51:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-18 20:51:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-18 20:51:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-18 20:51:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-18 20:51:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-18 20:51:00 0 [Note] InnoDB: Waiting for purge to start
+2023-05-18 20:51:00 0 [Note] InnoDB: 10.4.27 started; log sequence number 872365; transaction id 1982
+2023-05-18 20:51:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-18 20:51:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-18 20:51:00 0 [Note] Server socket created on IP: '::'.
+2023-05-19 11:59:11 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-05-19 11:59:11 0 [Note] InnoDB: Uses event mutexes
+2023-05-19 11:59:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-05-19 11:59:11 0 [Note] InnoDB: Number of pools: 1
+2023-05-19 11:59:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-05-19 11:59:11 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-05-19 11:59:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-05-19 11:59:11 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=917650
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\admin.ibd' OS error: 203
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-19 11:59:12 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`admin``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-19 11:59:12 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`admin` because it could not be opened.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\loaisanpham.ibd' OS error: 203
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-19 11:59:12 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`loaisanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-19 11:59:12 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`loaisanpham` because it could not be opened.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mydbweb2\sanpham.ibd' OS error: 203
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2023-05-19 11:59:12 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2023-05-19 11:59:12 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mydbweb2`.`sanpham``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2023-05-19 11:59:12 0 [Warning] InnoDB: Ignoring tablespace for `mydbweb2`.`sanpham` because it could not be opened.
+2023-05-19 11:59:12 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-05-19 11:59:12 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-05-19 11:59:12 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-05-19 11:59:12 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-05-19 11:59:12 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-05-19 11:59:12 0 [Note] InnoDB: Waiting for purge to start
+2023-05-19 11:59:12 0 [Note] InnoDB: 10.4.27 started; log sequence number 917659; transaction id 2166
+2023-05-19 11:59:12 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-05-19 11:59:12 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-05-19 11:59:12 0 [Note] Server socket created on IP: '::'.
