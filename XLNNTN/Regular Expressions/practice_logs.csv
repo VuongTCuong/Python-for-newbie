@@ -1,0 +1,16 @@
+LogID,LogText
+21736,Connection established with IP: 192.168.0.1 at 2023-06-12 10:30:15
+50562,[INFO] Request received from IP: 10.0.0.2 at 2023-06-12 10:35:23
+87082,Error: Connection rejected from IP: 192.168.0.10 at 2023-06-12 10:40:41
+44234,[DEBUG] Processing request for user: john.doe at 2023-06-12 10:45:59
+77307,Request completed successfully at 2023-06-12 10:50:01
+30113,Error: HTTP 500 - Internal Server Error at 2023-06-12 10:55:10
+14144,[INFO] User login successful for user: jane.doe at 2023-06-12 11:00:23
+50942,[DEBUG] Performing database query at 2023-06-12 11:05:32
+76423,Warning: Disk space is running low at 2023-06-12 11:10:47
+76356,Invalid request received at 2023-06-12 11:15:55
+64798,[ERROR] Failed to connect to database at 2023-06-12 11:20:01
+79267,[INFO] Request processed successfully at 2023-06-12 11:25:12
+52107,Error: HTTP 404 - Page not found at 2023-06-12 11:30:25
+34577,[DEBUG] Execution time: 2.345 seconds at 2023-06-12 11:35:30
+18400,Unauthorized access attempt detected at 2023-06-12 11:40:41
