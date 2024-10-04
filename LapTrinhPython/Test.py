@@ -1,1 +1,2 @@
-print(list(range(2,0,-1)))
+s = '01234'
+print(s)

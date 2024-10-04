@@ -1,7 +1,8 @@
 class Employee:
     employee_count = 0 
-    _employee_type_list = ['Experience', 'Fresher', 'Intern']
+    employee_type_list = ['Experience', 'Fresher', 'Intern']
     def __init__(self,id,name,bd,phone,email,type):
+
         self.id = id
         self.name = name
         self.birthday = bd
@@ -15,9 +16,27 @@ class Employee:
         print('Birthday :',self.birthday)
         print('Phone :',self.phone)
         print('Email :',self.email)
-        print('Employee type: ',self._employee_type_list[self.employee_type])
+        print('Employee type: ',self.employee_type_list[self.employee_type])
         print('Employee count: ',self.employee_count)
+    
+    def __str__(self):
+        return "[{0},{1},{2},{3},{4},{5}]".format(
+            self.id,
+            self.name,
+            self.birthday,
+            self.phone,
+            self.email,
+            self.employee_type_list[self.employee_type]
+        )
 
+    def __isValid(bd,email,name,phone):
+        bool = True
+        
+        if not name.replace(" ", "").isalpha():
+            bool = False
+        if not phone.isdigit():
+            bool = False
+        return bool
 class Experience(Employee):
     def __init__(self,id,name,bd,phone,email,type,ExpInYear,ProSkill):
         super().__init__(id,name,bd,phone,email,type)
@@ -29,7 +48,7 @@ class Experience(Employee):
         print('Experience in year: ',self.ExpInYear)
         print('Pro Skill:',self.ProSkill)
     def __str__(self):
-        return "[{0},{1},{2},{3},{4},{5},{6},{7}]".format(self.id,self.name,self.birthday,self.phone,self.email,self._employee_type_list[self.employee_type],self.ExpInYear,self.ProSkill)
+        return "[{0},{1},{2},{3},{4},{5},{6},{7}]".format(self.id,self.name,self.birthday,self.phone,self.email,self.employee_type_list[self.employee_type],self.ExpInYear,self.ProSkill)
 
 class Fresher(Employee):
     def __init__(self,id,name,bd,phone,email,type,Grad_date,Grad_rank,Edu):
@@ -44,7 +63,8 @@ class Fresher(Employee):
         print('Graduation Rank: ',self.Graduation_rank)
         print('Education: ',self.Education)
     def __str__(self):
-        return "[{0},{1},{2},{3},{4},{5},{6},{7},{8}]".format(self.id, self.name, self.birthday, self.phone, self.email, self._employee_type_list[self.employee_type], self.Graduation_date, self.Graduation_rank, self.Education)
+        return "[{0},{1},{2},{3},{4},{5},{6},{7},{8}]".format(self.id, self.name, self.birthday, self.phone, self.email, self.employee_type_list[self.employee_type], self.Graduation_date, self.Graduation_rank, self.Education)
+
 class Intern(Employee):
     def __init__(self,id,name,bd,phone,email,type,major,semester,uni_name):
         super().__init__(id,name,bd,phone,email,type)
@@ -59,7 +79,8 @@ class Intern(Employee):
         print('University name:', self.University_name)
 
     def __str__(self):
-        return "[{0},{1},{2},{3},{4},{5},{6},{7},{8}]".format(self.id, self.name, self.birthday, self.phone, self.email, self._employee_type_list[self.employee_type], self.Majors, self.Semester, self.University_name)
+        return "[{0},{1},{2},{3},{4},{5},{6},{7},{8}]".format(self.id, self.name, self.birthday, self.phone, self.email, self.employee_type_list[self.employee_type], self.Majors, self.Semester, self.University_name)
+
 def AddEmp():
     new_emp = None 
     id = input('Nhập ID: ')
@@ -68,21 +89,28 @@ def AddEmp():
     phone = input('Nhập SĐT: ')
     email = input('Nhập email: ')
     type = int(input('Nhập loại(0,1,2): '))
-    if type == 0:
-        expinyear = int(input('Nhập số năm kinh nghiệm: '))
-        proskill = input('Nhập kỹ năng chuyên môn: ')
-        new_emp = Experience(id,name,bd,phone,email,type,expinyear,proskill)
-    elif type == 1:
-        grad_date = input('Nhập thời gian tốt nghiệp: ')
-        grad_rank = input('Nhập loại tốt nghiệp: ')
-        edu = input('Nhập trường đang học: ')
-        new_emp = Fresher(id,name,bd,phone,email,type,grad_date,grad_rank,edu)
-    elif type == 2:
-        major = input('Nhập chuyên ngành đang học: ')
-        sem = input('Nhập học kì đang học: ')
-        uni = input('Nhập trường đang học: ')
-        new_emp = Intern(id,name,bd,phone,email,type,major,sem,uni)
+    print('1. Có')
+    print('2. Không')
+    key = int(input('Bạn muốn thêm thuộc tính loại nhân viên không? : '))
+    if key==1:   
+        if type == 0:
+            expinyear = int(input('Nhập số năm kinh nghiệm: '))
+            proskill = input('Nhập kỹ năng chuyên môn: ')
+            new_emp = Experience(id,name,bd,phone,email,type,expinyear,proskill)
+        elif type == 1:
+            grad_date = input('Nhập thời gian tốt nghiệp: ')
+            grad_rank = input('Nhập loại tốt nghiệp: ')
+            edu = input('Nhập trường đang học: ')
+            new_emp = Fresher(id,name,bd,phone,email,type,grad_date,grad_rank,edu)
+        elif type == 2:
+            major = input('Nhập chuyên ngành đang học: ')
+            sem = input('Nhập học kì đang học: ')
+            uni = input('Nhập trường đang học: ')
+            new_emp = Intern(id,name,bd,phone,email,type,major,sem,uni)
+    elif key==2:
+        new_emp = Employee(id,name,bd,phone,email,type)
     return new_emp
+
 def Menu():
     Employee_list = []
     Employee_list.extend([
@@ -111,8 +139,4 @@ def Menu():
             break
      
 Menu()
-e1 = Employee('1','VTC','10/10/2003','01234','abc@gmail.com',1)
-e2 = Experience('2','VTV','10/11/2003','02345','cde@gmail.com',0,3,'Graph')
-#e2.ShowInfo()
-        
 
